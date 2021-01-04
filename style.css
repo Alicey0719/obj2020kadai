@@ -1,0 +1,139 @@
+body {
+    background: #20262E;
+    background-color: rgb(255, 198, 41);
+    font-family: "Noto Sans JP";
+}
+
+h2 {
+    font-family: "M PLUS 1p";
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menuBar {
+    position: fixed;
+    padding: 0px;
+    width: 100%;
+    background-color: rgb(255, 226, 146);
+}
+
+#logo {
+    vertical-align: top;
+    width: 45px;
+}
+
+#searchBar {
+    margin: 10px;
+    text-align: center;
+}
+
+#searchBar p, #searchBar input {
+    font-size: 15px;
+    vertical-align: 25px;
+    height: 40px;
+    display: inline-block;
+}
+
+#searchBar p {
+    font-size: 23px;
+}
+
+#searchBar input {
+    vertical-align: top;
+    width: 30%;
+}
+
+#appArea {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    align-items: center
+}
+
+#contentArea {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    transition: all 0.2s;
+}
+
+.modal-header, .modal-body {
+    padding: 10px 25px;
+}
+
+.modal-body {
+    display: inline-block;
+}
+
+.modal-header {
+    border-bottom: 1px solid #ddd;
+}
+
+.modal-header p, .modal-header h2 {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.modal-header p {
+    text-align: right;
+}
+
+.thumbnailArea {
+    vertical-align: bottom;
+    width: 90%;
+    margin: 100px auto auto auto;
+}
+
+.thumbnail {
+    display: inline-block;
+    margin: 20px;
+    width: 280px;
+    height: 280px;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.thumbnail img:hover {
+    opacity: 0.8;
+}
+
+.modal-pic {
+    display: inline-block;
+    width: 40%;
+    margin: 20px;
+}
+
+.modal-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.modal-content {
+    display: inline-block;
+    width: 40%;
+    margin: 20px;
+}
+
+.modalOptionButton {
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+}
+
+.spaceW {
+    display: inline-block;
+    width: 5%;
+}
